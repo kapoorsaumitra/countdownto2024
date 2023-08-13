@@ -1,3 +1,22 @@
 body{
     background-color: #387373;
+    min-height: 100vh;
+}
+
+.launch-time{
+    color: #E4F2E7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 80vh;
+}
+
+.launch-time div{
+    flex-basis: 15%;
+}
+
+.launch-time div p{
+    font-size: 120px;
+    margin-bottom: -14px;
 }
